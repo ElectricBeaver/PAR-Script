@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <?!= include('Header'); ?>
+    <?!= include('JavaScript'); ?> <!-- See JavaScript.html file -->
+  </head>
+  <body onload="createOperatorDropDown(), createServiceDropDown()">
+    {{NAVBAR}}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <?!= include('FormCivs'); ?> <!-- See Form.html file -->
+          <br><br>
+          <div id="output"></div>
+        </div>
+      </div> 
+      <div class="row">
+        <!--<?!= include('DataTableCivs'); ?>--> <!-- See DataTable.html File -->
+      </div>     
+    </div>
+  </body>
+</html>
+
