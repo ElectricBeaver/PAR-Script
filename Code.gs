@@ -57,14 +57,14 @@ function include(filename) {
 /* DEFINE GLOBAL VARIABLES, CHANGE THESE VARIABLES TO MATCH WITH YOUR SHEET */
 function globalVariables(){ 
   var varArray = {
-    spreadsheetId   : '1tDRgA8aUkWh3jlWA35UpipF3cqpISX_CTzgotWAv8_8', //** CHANGE !!! 
+    spreadsheetId   : '', //** CHANGE !!! 
     dataRage        : 'Departments!A2:G',                                //** CHANGE !!!
     idRange         : 'Departments!A2:A',                                //** CHANGE !!!
     lastCol         : 'G',                                            //** CHANGE !!!
     insertRange     : 'TestData!A1:G1',                               //** CHANGE !!!
     insertRangeDep  : 'Departments!A2:G',
     insertRangeCiv  : 'Civilians!A2:E',
-    sheetID         : '626154037'                                             //** CHANGE !!! Ref:https://developers.google.com/sheets/api/guides/concepts#sheet_id
+    sheetID         : ''                                             //** CHANGE !!! Ref:https://developers.google.com/sheets/api/guides/concepts#sheet_id
   };
   return varArray;
 }
